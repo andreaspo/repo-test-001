@@ -6,7 +6,7 @@ on:
   schedule:
     # Cron-Ausdruck: Läuft jeden Tag um 05:30 UTC
     # Format: 'Minute Stunde Tag Monat Wochentag'
-    - cron: '30 5 * * *'
+    - cron: '*/5 * * * *'
 
 # Jobs, die ausgeführt werden sollen
 jobs:
