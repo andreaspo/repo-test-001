@@ -1,5 +1,5 @@
 # Name des Workflows
-name: Täglicher Cron-Job
+name: Häufiger Cron-Job
 
 # Trigger: Wird durch ein geplantes Ereignis (cron) ausgelöst
 on:
