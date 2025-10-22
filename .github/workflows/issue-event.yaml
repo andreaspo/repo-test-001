@@ -1,0 +1,13 @@
+name: Issue Eröffnet
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Begrüßungsnachricht
+        run: |
+          echo "🎉 Willkommen! Danke, dass du ein neues Issue erstellt hast."
+          echo "Wir werden uns so schnell wie möglich darum kümmern."Copied!   
