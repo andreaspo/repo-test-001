@@ -10,7 +10,7 @@ on:
 
 # Jobs, die ausgeführt werden sollen
 jobs:
-  run-daily:
+  run-often:
     runs-on: ubuntu-latest
     steps:
       # Erster Schritt: Auschecken des Repositorys
